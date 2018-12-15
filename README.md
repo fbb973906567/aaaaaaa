@@ -11,3 +11,22 @@ git commit -m "提交时候的自定义注释"   // 将需要添加的文件comm
 git push    // 将commit的代码push到远程分支
 
 ```
+
+# 第一次提交的时候，git遇到报错
+ ```js
+please  tell me who you are   
+
+ ```
+大概意思是我可能是第一次提交git，需要初始化name和email
+
+查看name和email
+```js
+git config user.name
+git config user.email
+```
+
+修改name和email
+```js
+git config --global user.name "your name"
+git config --global user.email "your email"
+```
